@@ -1,4 +1,4 @@
-# <em><b>ESLINT-CONFIG-WELLY</b></em>
+# <em><b>ESLINT-CONFIG-JERRY</b></em>
 
 ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org) and [many awesome features](#whats-inside).
 
@@ -80,20 +80,6 @@ This configuration contains the following cool packages.
 | [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)             | ESLint plugin for [Testing Library](https://testing-library.com/docs/react-testing-library/intro).                  | ✅           |
 | [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)                                  | Turns off all rules that are unnecessary or might conflict with Prettier.                                           | ✅           |
 | [@emotion/eslint-plugin](https://github.com/emotion-js/emotion/blob/master/packages/eslint-plugin/README.md)  | ESLint rules for [emotion](https://emotion.sh).                                                                     | ✅           |
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://wellyshen.com"><img src="https://avatars1.githubusercontent.com/u/21308003?v=4" width="100px;" alt=""/><br /><sub><b>Welly</b></sub></a><br /><a href="https://github.com/wellyshen/react-cool-inview/commits?author=wellyshen" title="Code">💻</a> <a href="https://github.com/wellyshen/react-cool-inview/commits?author=wellyshen" title="Documentation">📖</a> <a href="#maintenance-wellyshen" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://www.alexypdu.com"><img src="https://avatars3.githubusercontent.com/u/28721952?v=4" width="100px;" alt=""/><br /><sub><b>Alex Du</b></sub></a><br /><a href="https://github.com/wellyshen/eslint-config-welly/commits?author=alexypdu" title="Documentation">📖</a></td>
-  </tr>
-</table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
