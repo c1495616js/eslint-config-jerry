@@ -14,12 +14,12 @@ ESlint configuration for my personal [React](https://reactjs.org) projects, whic
 
 ## Installation
 
-This package is distributed via [npm](https://www.npmjs.com/package/eslint-config-welly). It requires [eslint](https://github.com/eslint/eslint) and [typescript](https://github.com/microsoft/TypeScript).
+This package is distributed via [npm](https://www.npmjs.com/package/eslint-config-jerry). It requires [eslint](https://github.com/eslint/eslint) and [typescript](https://github.com/microsoft/TypeScript).
 
 Install the correct version of each package, which are listed by the command:
 
 ```sh
-npm info "eslint-config-welly@latest" peerDependencies
+npm info "eslint-config-jerry@latest" peerDependencies
 ```
 
 If using **npm 5+**, use this shortcut:
@@ -31,7 +31,7 @@ npx install-peerdeps --dev eslint-config-welly
 Or install each package by yourself:
 
 ```sh
-npm install --save-dev eslint-config-welly eslint@^x.x.x typescript@^x.x.x
+npm install --save-dev eslint-config-jerry eslint@^x.x.x typescript@^x.x.x
 # or
 yarn add --dev eslint-config-welly eslint@^x.x.x typescript@^x.x.x
 ```
