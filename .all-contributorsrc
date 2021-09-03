@@ -6,29 +6,20 @@
   "commit": false,
   "contributors": [
     {
-      "login": "wellyshen",
-      "name": "Welly",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/21308003?v=4",
-      "profile": "https://wellyshen.com",
+      "login": "c1495616js",
+      "name": "Jerry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31360789?s=400&u=9d59339620abdb3b6c2977ec87b7b3c3d4762feb&v=4",
+      "profile": "https://jerry.c1495616.online",
       "contributions": [
         "code",
         "doc",
         "maintenance"
       ]
-    },
-    {
-      "login": "alexypdu",
-      "name": "Alex Du",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/28721952?v=4",
-      "profile": "https://www.alexypdu.com",
-      "contributions": [
-        "doc"
-      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "eslint-config-welly",
-  "projectOwner": "wellyshen",
+  "projectName": "eslint-config-jerry",
+  "projectOwner": "c1495616js",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true

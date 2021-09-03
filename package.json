@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-welly",
-  "version": "1.11.7",
-  "description": "ESLint configuration for React projects that I do. Feel free to use this!",
+  "name": "eslint-config-jerry",
+  "version": "1.0.0",
+  "description": "ESLint configuration for React projects.",
   "license": "MIT",
-  "homepage": "https://github.com/wellyshen/eslint-config-welly",
-  "repository": "https://github.com/wellyshen/eslint-config-welly",
-  "bugs": "https://github.com/wellyshen/eslint-config-welly/issues",
+  "homepage": "https://github.com/c1495616js/eslint-config-jerry",
+  "repository": "https://github.com/c1495616js/eslint-config-jerry",
+  "bugs": "https://github.com/c1495616js/eslint-config-jerry/issues",
   "keywords": [
     "eslint",
     "eslint-config",
@@ -15,13 +15,12 @@
     "browser-compatibility",
     "jest",
     "testing-library",
-    "emotion",
     "a11y",
     "import",
     "promise",
     "async-await"
   ],
-  "author": "Welly Shen <hivoid19@gmail.com> (https://github.com/wellyshen)",
+  "author": "Jerry Wang <c1495616@gmail.com> (https://github.com/c1495616js/eslint-config-jerry)",
   "main": "index.js",
   "files": [
     "index.js"
