@@ -87,3 +87,11 @@ This configuration contains the following cool packages.
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Publish To NPM
+
+- https://www.section.io/engineering-education/npm-packages/
+
+## Refs
+
+- https://github.com/wellyshen/eslint-config-welly
