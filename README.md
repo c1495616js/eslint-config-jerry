@@ -2,16 +2,6 @@
 
 ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org) and [many awesome features](#whats-inside).
 
-[![build status](https://img.shields.io/github/workflow/status/wellyshen/eslint-config-welly/CI?style=flat-square)](https://github.com/wellyshen/eslint-config-welly/actions?query=workflow%3ACI)
-[![npm version](https://img.shields.io/npm/v/eslint-config-welly?style=flat-square)](https://www.npmjs.com/package/eslint-config-welly)
-[![npm downloads](https://img.shields.io/npm/dm/eslint-config-welly?style=flat-square)](https://www.npmtrends.com/eslint-config-welly)
-[![npm downloads](https://img.shields.io/npm/dt/eslint-config-welly?style=flat-square)](https://www.npmtrends.com/eslint-config-welly)
-[![dependencies status](https://img.shields.io/david/wellyshen/eslint-config-welly?style=flat-square)](https://david-dm.org/wellyshen/eslint-config-welly)
-[![devDependencies status](https://img.shields.io/david/dev/wellyshen/eslint-config-welly?style=flat-square)](https://david-dm.org/wellyshen/eslint-config-welly?type=dev)
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
-[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fwellyshen%2Feslint-config-welly)](https://twitter.com/intent/tweet?text=With%20@eslint-config-welly,%20I%20can%20code%20by%20following%20the%20best%20style%20guide.%20Thanks,%20@Welly%20Shen%20🤩)
-
 ## Installation
 
 This package is distributed via [npm](https://www.npmjs.com/package/eslint-config-jerry). It requires [eslint](https://github.com/eslint/eslint) and [typescript](https://github.com/microsoft/TypeScript).
@@ -25,7 +15,7 @@ npm info "eslint-config-jerry@latest" peerDependencies
 If using **npm 5+**, use this shortcut:
 
 ```sh
-npx install-peerdeps --dev eslint-config-welly
+npx install-peerdeps --dev eslint-config-jerry
 ```
 
 Or install each package by yourself:
@@ -33,7 +23,7 @@ Or install each package by yourself:
 ```sh
 npm install --save-dev eslint-config-jerry eslint@^x.x.x typescript@^x.x.x
 # or
-yarn add --dev eslint-config-welly eslint@^x.x.x typescript@^x.x.x
+yarn add --dev eslint-config-jerry eslint@^x.x.x typescript@^x.x.x
 ```
 
 ## Usage
@@ -42,7 +32,7 @@ Add the extends to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: "welly",
+  extends: "jerry",
   rules: {
     // your overrides
   },
