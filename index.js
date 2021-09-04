@@ -77,7 +77,10 @@ module.exports = {
     ],
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
-    "@typescript-eslint/no-use-before-define": "error",
+    "@typescript-eslint/no-use-before-define": [
+      "error",
+      { ignoreTypeReferences: true },
+    ],
     "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
@@ -86,5 +89,17 @@ module.exports = {
           "@emotion/pkg-renaming": "error",
         }
       : null),
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        selector: "enum",
+        format: null,
+        custom: {
+          // enum should be uppercase and snakecase and allow double underscore
+          regex: "^[A-Z][A-Z0-9]*(__?[A-Z0-9]+)*$",
+          match: true,
+        },
+      },
+    ],
   },
 };
