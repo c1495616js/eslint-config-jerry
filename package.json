@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jerry",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint configuration for React projects.",
   "license": "MIT",
   "homepage": "https://github.com/c1495616js/eslint-config-jerry",
