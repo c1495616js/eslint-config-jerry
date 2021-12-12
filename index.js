@@ -75,6 +75,7 @@ module.exports = {
     node: true,
     es6: true,
     "jest/globals": true,
+    ...(hasCypress ? { "cypress/globals": true } : null),
   },
   rules: {
     ...customRule,
