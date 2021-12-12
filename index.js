@@ -1,7 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const readPkgUp = require("read-pkg-up");
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const customRule = require("./custom");
 
 let hasPrettier = false;
 let hasJestDom = false;
@@ -30,6 +28,13 @@ try {
 } catch (error) {
   // ignore error
 }
+
+/**
+ * custom rules -> personal preference
+ */
+const customRule = {
+  "import/prefer-default-export": "off",
+};
 
 module.exports = {
   parser: "@typescript-eslint/parser",
