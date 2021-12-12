@@ -1,10 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const readPkgUp = require("read-pkg-up");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const customRule = require("./custom");
 
 let hasPrettier = false;
 let hasJestDom = false;
 let hasTestingLibrary = false;
 let hasEmotion = false;
+let hasCypress = false;
 
 try {
   const { packageJson } = readPkgUp.sync({ normalize: true });
@@ -23,6 +26,7 @@ try {
     allDeps.includes("@emotion/react") ||
     allDeps.includes("@emotion/styled") ||
     allDeps.includes("@emotion/css");
+  hasCypress = allDeps.includes("cypress");
 } catch (error) {
   // ignore error
 }
@@ -41,6 +45,7 @@ module.exports = {
     hasJestDom && "jest-dom",
     hasTestingLibrary && "testing-library",
     hasEmotion && "@emotion",
+    hasCypress && "cypress",
   ].filter(Boolean),
   extends: [
     "airbnb",
@@ -53,6 +58,7 @@ module.exports = {
     hasJestDom && "plugin:jest-dom/recommended",
     hasTestingLibrary && "plugin:testing-library/react",
     hasPrettier && "prettier",
+    hasCypress && "plugin:cypress/recommended",
   ].filter(Boolean),
   settings: {
     "import/resolver": {
@@ -66,6 +72,7 @@ module.exports = {
     "jest/globals": true,
   },
   rules: {
+    ...customRule,
     "no-use-before-define": "off",
     "no-shadow": "off",
     "react/jsx-props-no-spreading": "off",
